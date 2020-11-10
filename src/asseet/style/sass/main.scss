@@ -1,0 +1,11 @@
+@import './utilities/colors.scss';
+@import './layaut/stage.scss';
+@import './layaut/list-group.scss';
+@import './components/pieces.scss';
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}

@@ -1,0 +1,9 @@
+$gradient-game: linear-gradient(-45deg, #FCCC88 0%, #042228 23%, #042228 33%, #ED634C 56%, #36B6D6 66%, #042228 89%);
+$dark: #042228;
+$divider: #2C4A4F;
+
+@function functionStatistics($rotate) {
+	$gradient-statistics: linear-gradient($rotate, #36B6D6 0%, #5496CE 23%, #8ED7AE 33%, #5DC382 56%, #FE9189 66%, #ED634C 89%);
+
+	@return $gradient-statistics;
+}

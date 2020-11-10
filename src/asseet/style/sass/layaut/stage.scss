@@ -1,0 +1,30 @@
+.stage {
+	width: 551px;
+	min-height: 526px;
+	border: 5px solid transparent; //Creas el borde
+    border-image: functionStatistics(215deg) 1; //agregas el gradiente a las esquinas
+    font-weight: bold;
+}
+
+.stage__statistics {
+	background: functionStatistics(-45deg);
+	border-right: 8px solid #ED634C;
+}
+
+.stage__game {
+	background: $gradient-game;
+}
+
+.stage__game--grid {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	height: 100%;
+	overflow: hidden;
+}
+
+.stage__divider {
+	background-color: $dark;
+	border: 1px solid $divider;
+}
